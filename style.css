@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+::-webkit-scrollbar {
+  width: 3vw;
+}
+
+::-webkit-scrollbar-track {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 1.75vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
+}
+
+#logo { width: 15%; }
+
+#searchForm {
+  display: inherit;
+  width: 90%;
+  margin-top: 2vh;
+  flex-grow: 3;
+}
+
+#mainInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.65em;
+}
+
+#carousel {
+  display: flex;
+  align-content: center;
+  overflow-x: scroll;
+}
+
+#fast {
+  width: 100vw;
+  margin-left: -9vw;
+}
+
+#linksNike {
+  width: 79%;
+  display: flex;
+  justify-content: center;
+}
+
+#paymentMethods {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#credits { font-size: 0.8em; }
+
+#sizeOptions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0 2.5vw 0 2.5vw;
+}
+
+#sizeNotFound {
+  font-size: 0.8em;
+  margin: 2vw 5vw;
+  color: black;
+}
+
+#sizeTitle { margin-left: 5vw; }
+
+#addToCart, #liked, #newsletter button {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  width: 75vw;
+  height: 8vh;
+  font-size: 1.15em;
+  margin-left: 10vw;
+}
+
+#addToCart, #newsletter button {
+  justify-content: center;
+  background-color: black;
+  color: white;
+  margin-top: 5vh;
+  border: none;
+}
+
+#liked {
+  justify-content: space-evenly;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#about {
+  padding: 0.5vh 8vw;
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+#calculateTaxe {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2vh 16vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+#reviews, #share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2vh 6vw;
+  margin-left: -3vw;
+  margin-right: -3vw;
+  margin-bottom: -25px;
+}
+
+#newsletter p {
+  text-align: justify;
+}
+
+.carouselImg {
+  display: flex;
+  width: 75vw;
+  justify-content: center;
+  margin-right: 4vw;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#carousel li:first-of-type .carouselImg { margin-left: -5vw; }
+
+#carousel li:last-of-type .carouselImg { margin-right: 4.5vw; }
+
+#payment-methods li:first-of-type .payment { width: 11.5vw; }
+
+.payment {
+  width: 14vw;
+  margin: 0 1vh 0 1vh;
+}
+
+.shoeSize {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 8vh;
+  margin-right: 0.7vw;
+  margin-bottom: 0.7vw;
+  border-radius: 7.5%;
+}
+
+.disabled { color: gray; }
+
+#newsletter button {
+  margin-left: 2vw;
+}
+
+#about h3 {
+  font-size: 1rem;
+  margin-top: 5vh;
+}
+
+#about ul, #aditionalDetails { list-style-type: disc; }
+
+#about ul li, #aditionalDetails li { margin-bottom: 1vh; }
+
+#searchForm > * {
+  padding: 2%;
+  border: 1px solid black;
+}
+
+#searchForm > button {
+  display: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-right-color: white;
+  background-color: white;
+  align-items: center;
+}
+
+#searchForm > input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-left-color: white;
+  width: 95%;
+  border-left-color: white;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.25vw;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1.7vh;
+  border-bottom: 1px dotted black;
+}
+
+header > i { margin-top: 1.5vh; }
+
+main { padding: 0 2vw; }
+
+ul { list-style-type: none; }
+
+footer {
+  color: white;
+  background-color: black;
+  margin-left: -1.97vw;
+  margin-right: -1.97vw;
+}
+
+footer > h3 { text-align: center; }
+
+#fast > li {
+  padding: 2.5vw;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  padding-left: 7vw;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#mainInfo > h1 { font-size: 1.2rem; }
+
+#mainInfo > * { margin-bottom: 0; }
+
+#linksNike > li {
+  width: 7vw;
+  height: 4vh;
+  display: inherit;
+  justify-content: inherit;
+  align-items: center;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 5vw;
+}
+
+#calculateTaxe a {
+  color: black;
+  font-size: 0.8em;
+  margin-bottom: 2vh;
+}
+
+#calculateTaxe form {
+  display: inherit;
+  justify-content: center;
+}
+
+#calculateTaxe form input {
+  background-color: white;
+  height: 5vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+#calculateTaxe form button {
+  height: 5vh;
+  background-color: black;
+  color: white;
+  border-radius: 7.5%;
+  border: none;
+  font-weight: bold;
+}
